@@ -25,7 +25,7 @@ function Map({navigation,route}) {
         if (initialLocation) {
             return;
         }
-        
+
         const lat = event.nativeEvent.coordinate.latitude;
         const lng = event.nativeEvent.coordinate.longitude;
 
